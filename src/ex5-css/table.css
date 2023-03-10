@@ -1,0 +1,28 @@
+
+table {
+
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    background-color: azure;
+    
+}
+
+th, 
+td{
+
+    text-align: left;
+    padding: 8px;
+}
+tbody tr:nth-child(odd){
+    background-color: bisque;
+    color:blue
+}
+tbody tr:nth-child(even){
+    background-color: blue;
+    color:bisque
+}
+.delete-btn{
+    background-color: red;
+    padding: 5px 15px;
+}
