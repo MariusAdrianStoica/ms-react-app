@@ -9,6 +9,12 @@ import StyleExampleCss from "./ex5-css/StyleExampleCss";
 //importing bootstrap for all components in the principal index.js file -> import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/css/bootstrap.css";
 import NameList from "./ex6-var-function/NameList";
+import Menu from "./ex7-props/Menu";
+import App from "./ex7-props/App";
+import Car from "./ex8-state/Car";
+import ProductList from "./ex8-state/ProductList";
+import Counter from "./ex9-events/Counter";
+import Person from "./ex9-events/Person";
 
 const greetingMessage =<div>Hello React!</div>;
 
@@ -25,4 +31,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<NameList/>) -> root.render(<NameList/>);
 const names = ["Mehrdad Javan", "Marius Stoica"];
 
-root.render(<NameList list={names} />);
+root.render(<Person/>);
