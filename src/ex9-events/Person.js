@@ -88,7 +88,7 @@ const Person = () => {
                                     value={person.lastName} onChange={changeLastName} placeholder='Please enter lastname'></input>
                             </div>
                     <div className='mb-3'>
-                        <button type='button' className='btn btn-success' onClick={clickBtn}>Click</button>
+                        <button type='button' className='btn btn-success' onClick={clickBtn}>Click Me</button>
                     </div>
                 </form>              
             </div>
