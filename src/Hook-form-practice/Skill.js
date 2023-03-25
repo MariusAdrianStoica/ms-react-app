@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { useForm } from 'react-hook-form';
+import ShowData from './ShowData';
 
 const Skill = () => {
 
@@ -22,25 +23,12 @@ const Skill = () => {
         const newObject = {id, title};
         skills.push(newObject); // push is used to add an element as last element of array
         console.log("Skills: ",skills);
-
-
     }
-    /*const ShowData = (props) => {
-        return (
-            <ul>
-                <li></li>
-            </ul>
-        );*/
+    
 
     return (
         <>
-        <ul className='row pb-2 mt-5'>
-            {
-                skills.map(skill => {
-                    return <li key={skill.id}>{skill.title}</li>
-                })
-            }
-        </ul>
+        <ShowData skills = {skills}/>
 
         <br/>
 
@@ -65,4 +53,3 @@ const Skill = () => {
 };
 
 export default Skill;
-
