@@ -22,6 +22,7 @@ import UseStateExample3 from "./ex11-react-form-hook/UseStateExample3";
 import XUseEffectExample from "./ex11-react-form-hook/XUseEffectExample";
 import HookFormDemo from "./ex11-react-form-hook/HookFormDemo";
 import Skill from "./Hook-form-practice/Skill";
+import AxiosDemo from "./ex12-axios/AxiosDemo";
 
 const greetingMessage =<div>Hello React!</div>;
 
@@ -38,4 +39,4 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 //root.render(<NameList/>) -> root.render(<NameList/>);
 const names = ["Mehrdad Javan", "Marius Stoica"];
 
-root.render(<Skill/>);
+root.render(<AxiosDemo/>);
