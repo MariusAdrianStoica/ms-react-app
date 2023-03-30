@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import ContentClass from "./ContentClass";
 import FooterClass from "./FooterClass";
 import HeaderClass from "./HeaderClass";
+//before strating a react app, we have to check in Commander node -v and npm -v
 
 //rcc - shortcut to create class component
 class AppClass extends React.Component{

@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
+//in order to use react-hook-form, we have to install it: npm install react-hook-form 
+
 //we want to rewrite the form from UseState Example using useForm validation 
 //in order to use #useForm# -> we need to define a const {register, handleSubmit, formState: {errors}} 
 //that returns an object
